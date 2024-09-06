@@ -1,0 +1,214 @@
+/* header */
+.header{
+    padding: 20px;
+    background-color: #F9F9F9;
+}
+.header .sample-page{
+    display: flex;
+    justify-content: flex-end;   
+    font-size: 20px;
+    font-weight: 490;
+}
+.header .happy{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* End Header */
+
+/* Section-One */
+.section-one{
+    padding-top: 70px;
+    background-color: #F9F9F9;
+}
+.section-one .inner-wrap{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-one .inner-title{
+    text-align: center;
+    font-size: 35px;
+}
+.section-one .inner-desc{
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.button{
+    padding: 10px 20px;
+    background: black;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    opacity: 0.6;
+}
+/* End Section One */
+
+/* Imgage */
+.section-two{
+    background-color: #F9F9F9;
+    padding: 80px;
+}
+.section-two .inner-image{
+    object-fit: contain;
+}
+.section-two .inner-image img{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+/* End Image */
+
+/* Section Three */
+.section-three{
+    padding: 60px;
+    background: #fff;
+}
+.section-three .inner-title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.section-three .inner-desc{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 20px;
+}
+.section-three .inner-chart{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-three .inner-des{
+    font-size: 18px;
+    max-width: calc(100% - 20px);
+}
+/* End Section Three */
+/* Section 4 */
+.section-four{
+    background: #F9F9F9;
+}
+.section-four .inner-title{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.section-four .inner-desc{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+}
+.section-four .inner-chart{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.section-four .inner-des{
+    margin: 20px 0; 
+}
+.section-four .inner-image{
+    width: 100%;
+    height:auto;
+    padding: 40px 0;
+}
+.section-four .inner-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* End Section 4 */
+
+/* motto */
+.motto{
+    background: black;
+    padding: 150px;
+}
+.motto .text{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 40px;
+}
+.motto .author{
+    color: #fff;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.motto .author p{
+    margin: 0;
+}
+.motto .author .position{
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+/* End Motto */
+
+/* Introduction */
+.introduce{
+    padding: 80px;
+    background: #F9F9F9;
+}
+.introduce .inner-text{
+    padding: 40px 0;
+    font-size: 50px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+.introduce .hello{
+    padding: 40px 0;
+    font-size: 20px;
+}
+.introduce .date-time{
+    padding: 40px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.introduce .inner-wrap{
+    padding: 150px 0;
+}
+.introduce .content{
+    padding: 120px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+.introduce .content .join{
+    text-align: center;
+}
+.introduce .content .join h3{
+    font-size: 40px;
+}
+.introduce .content .inner-desc{
+    text-align: center;
+    font-size: 20px;
+}
+.introduce .happy h4{
+    font-size: 20px;
+}
+.introduce .chart .tit{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.introduce ul li{
+    display: block;
+    justify-content: flex-start;
+}
+/* End introduction */
